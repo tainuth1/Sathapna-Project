@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    /* font-family: 'Battambang', cursive; */
+    font-family: 'Kantumruy Pro', sans-serif;
+}
+/* body::-webkit-scrollbar{
+    display: none;
+} */
+li{
+    list-style: none;
+}
+.header{
+    background-color: #093b7d;  
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.head{
+    padding: .5rem 0;
+}
+.head a{
+    color: white;
+    margin: 0 .9rem;
+    text-decoration: none;
+    letter-spacing: .2px;
+}
+.head-select{
+    padding: 0 5px;
+    border-radius: 5px;
+    background-color: transparent;
+    color: yellowgreen;
+}
+.line{
+    width: 1px;
+    height: 30px;
+    background-color: white;
+}
+.carousel-nav{
+    width: 230px;
+    margin-left: 7px;
+}
+span{
+    color: #ffffff;
+    font-size: .8rem;
+}
+.naviga-top{
+    position: sticky;
+    /* top: 7.8%; */
+    top: 57px;
+    z-index: 999;
+    transition: background-color 150ms;
+}
+.naviga-top{
+    background-color: white;
+    box-shadow: 0 4px 2px -2px gray;
+}
+#navbar li{
+    color: #093b7d;
+}
+#navbar:hover{
+    background-color: white;
+}
+.naviga-top:hover .nav-link{
+    color: #093b7d;
+}
+.nav-link{
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #093b7d;
+    padding: 1rem 2rem;
+    transition: background-color 300ms;
+    letter-spacing: 1px;
+}
+.nav-item{
+    transition: background-color 300ms;;
+}
+.nav-item:hover{
+    background-color: dodgerblue;
+}
+#navbar.scrolled li{
+    color: #093b7d;
+}
+#navbar.scrolled li a{
+    color: #093b7d;
+}
+.nav-item:hover .nav-link{
+    color: white;
+}
+.search{
+    color: whitesmoke;
+}
+.naviga-top:hover .search{
+    color: #093b7d;
+}
+.search-bar{
+    position: absolute;
+    top: 100%;
+    right: 8%;
+    display: none;
+}
+input[type=search]{
+    width: 300px;
+    padding: 10px 0 10px 1rem;
+    font-size: .7rem;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+}
+.service-pr{
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    background-color: #ffffff;
+    display: none;
+    box-shadow: -8px 0px 5px #000000;
+    padding: 1rem 0;
+}
+.container-drop{
+    width: 87%;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+}
+.drop-img{
+    flex: 25%;
+}
+.drop-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+.drop-menu1, .drop-menu2, .drop-menu3{
+    flex: 25%;
+}
+.menu-hover ul li a{
+    text-decoration: none;
+    line-height: 1.5rem;
+    letter-spacing: 1px;
+}
+.menu-hover ul li:hover a{
+    text-decoration: underline;
+}
+.hauto1{
+    height: 270px;
+}
+.hauto2{
+    height: 230px;
+}
+.nav-item-hover:hover .service-pr{
+    display: block;
+}
+
+
+
+.back-backto{
+    background-color: #ebebeb;
+}
+.back-backto a{
+    text-decoration: none;
+    color: #093b7d;
+    font-size: 1.1rem;
+}
+.back-backto a:hover{
+    text-decoration: underline;
+}
+.ser-pri p{
+    font-size: 1.3rem;
+}
+
+
+.nav-pills .nav-link{
+    background-color: transparent;
+    border: 1px solid black;
+    overflow: hidden;
+    border-radius: 6px;
+    padding: 1rem 0;
+}
+.tabs-menu .nav-link{
+    width: 180px;
+}
+.a1{
+    width: 400px;
+}
+
+
+.back-footer{
+    background-color: #333233;
+}
+.left-platform{
+    flex: 25%;
+}
+.right-menu{
+    flex: 75%;
+}
+.left-bot:nth-child(1){
+    border-radius: 10px;
+}
+.foot-menu li a{
+    text-decoration: none;
+    color: white;
+    line-height: 2rem;
+}
+.foot-menu li a:hover{
+    text-decoration: underline;
+}
+input[type=email]{
+    border: none;
+    outline: none;
+}
+.input-email{
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 0 0 0 1rem;
+    background-color: white;
+}
+.send{
+    width: 50px;
+    background-color: red;
+    padding: .5em;
+    color: white;
+}
+.copy-right p{
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
